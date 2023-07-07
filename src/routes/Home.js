@@ -13,7 +13,6 @@ const Home = () => {
     setMovies(json.data.movies);
     setLoading(false);
   };
-  console.log(movies);
   useEffect(() => {
     getMoives();
   }, []);
